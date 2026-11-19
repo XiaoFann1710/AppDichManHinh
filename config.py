@@ -1,0 +1,14 @@
+# Cấu hình API Grok
+GROK_API_KEY = ''
+GROK_MODEL_NAME = ''
+
+# Cấu hình OCR & Bộ lọc
+#OCR_LANGUAGES = ['ch_sim', 'en']
+MIN_TEXT_LENGTH = 5
+SIMILARITY_THRESHOLD = 0.85
+SCAN_INTERVAL_SECONDS = 1.0
+
+# Cấu hình phím tắt
+HOTKEY_SNIP = 'f4'
+HOTKEY_PAUSE = 'f3'
+HOTKEY_EXIT = 'f5'
